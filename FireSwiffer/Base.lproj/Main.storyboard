@@ -47,11 +47,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="FireSwiffer" id="3Z7-Ba-5k1">
                         <barButtonItem key="leftBarButtonItem" title="Login" id="z2f-db-2Ma">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="loginAndSignUp:" destination="9BA-wb-85n" id="XRy-ec-7DI"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dFE-eA-ZZn">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="addSweet:" destination="9BA-wb-85n" id="9fs-Iv-Jt3"/>
                             </connections>
