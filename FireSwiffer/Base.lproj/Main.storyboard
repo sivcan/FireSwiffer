@@ -46,7 +46,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="FireSwiffer" id="3Z7-Ba-5k1">
-                        <barButtonItem key="leftBarButtonItem" title="Login" id="z2f-db-2Ma"/>
+                        <barButtonItem key="leftBarButtonItem" title="Login" id="z2f-db-2Ma">
+                            <connections>
+                                <action selector="loginAndSignUp:" destination="9BA-wb-85n" id="XRy-ec-7DI"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dFE-eA-ZZn">
                             <connections>
                                 <action selector="addSweet:" destination="9BA-wb-85n" id="9fs-Iv-Jt3"/>
@@ -64,10 +68,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xNr-GZ-qjv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cDW-li-HMw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cDW-li-HMw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
